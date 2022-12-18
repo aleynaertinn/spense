@@ -1,0 +1,107 @@
+:root{
+    --menu:#F0EEEB;
+    --icon:#C8C8C8;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.menu{
+    background-color: var(--menu);
+    height: 100vh;
+}
+.navbar{
+    height: 150px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+.navbar ul li{
+    padding-right: 20px;
+}
+.navbar a {
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+}
+.navbar a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.koyu {
+    height: 55px;
+    background-color: #000;
+    color: #fff;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0!important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.menu .img_{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu .img_ img{
+    height: 500px;
+}
+
+.menu .m_text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.m_text h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+.m_text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+
+.m_text ul{
+    list-style-type: none;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: gray;
+}
+
+.m_text ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.m_text form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+.m_text form .mail{
+    height: 55px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px;
+    font-size: 18px;
+}
+.m_text ul li i{
+    font-size: 26px;
+    padding-right: 10px;
+    color: #000;
+}
